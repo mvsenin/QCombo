@@ -1,6 +1,6 @@
 {
     "name" : "QCombo",
-    "description" : "QlikSense Combo Chart based on amCombo",
+    "description" : "QlikSense Combo Chart based on amCharts",
     "icon" : "extension",
     "type" : "visualization",
     "version": "0.1.0",
