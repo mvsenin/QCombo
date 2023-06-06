@@ -28,7 +28,7 @@ define([], function() {
         label: "Start value for waterfall",
         ref: "qDef.waterfall.start",
         expression: "always",
-        defaultValue: 0,
+        defaultValue: "'0'",
         show: function(m) {
             return m.qDef.amGraph.type == 'Waterfall';
         }
@@ -38,7 +38,7 @@ define([], function() {
         label: "Start Label for waterfall",
         ref: "qDef.waterfall.startLabel",
         expression: "always",
-        defaultValue: "Start",
+        defaultValue: "'Start'",
         show: function(m) {
             return m.qDef.amGraph.type == 'Waterfall';
         }
@@ -48,7 +48,7 @@ define([], function() {
         label: "End value for waterfall",
         ref: "qDef.waterfall.end",
         expression: "always",
-        defaultValue: 0,
+        defaultValue: "'0'",
         show: function(m) {
             return m.qDef.amGraph.type == 'Waterfall';
         }
@@ -58,7 +58,7 @@ define([], function() {
         label: "End Label for waterfall",
         ref: "qDef.waterfall.endLabel",
         expression: "always",
-        defaultValue: "End",
+        defaultValue: "'End'",
         show: function(m) {
             return m.qDef.amGraph.type == 'Waterfall';
         }

@@ -4,7 +4,7 @@ define([], function() {
         type: "string",
         label: "Title text",
         ref: "amChart.titles.text",
-        defaultValue: "Wombo Combo Chart"
+        defaultValue: ""
     };
 
     var alpha = {
