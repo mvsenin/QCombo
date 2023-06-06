@@ -4,4 +4,6 @@ QCombo implementa alternative QlikSense Combo Chart and is based on amWaterfall 
 2. chart title - native one is used instead of the custom
 3. start and end labels are expressions now
 
+![image](https://github.com/mvsenin/QCombo/assets/59935441/aaa1c174-e7ed-4b07-ab56-1293b4df35e5)
+
 Thanks to Niels Lindberg-Poulsen for the https://github.com/NielsLindberg/Qliksense.Extension.amWaterfall.
