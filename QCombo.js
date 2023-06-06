@@ -1,12 +1,12 @@
 requirejs.config({
   paths: {
-    "amcharts": "/extensions/amCombo/library/amcharts",
-    "amcharts.serial": "/extensions/amCombo/library/serial",
-    "amcharts.theme.dark": "/extensions/amCombo/library/dark",
-    "amcharts.theme.black": "/extensions/amCombo/library/black",
-    "amcharts.theme.chalk": "/extensions/amCombo/library/light",
-    "amcharts.theme.light": "/extensions/amCombo/library/chalk",
-    //"amcharts.theme.patterns": "/extensions/amCombo/library/patterns"
+    "amcharts": "/extensions/QCombo/library/amcharts",
+    "amcharts.serial": "/extensions/QCombo/library/serial",
+    "amcharts.theme.dark": "/extensions/QCombo/library/dark",
+    "amcharts.theme.black": "/extensions/QCombo/library/black",
+    "amcharts.theme.chalk": "/extensions/QCombo/library/light",
+    "amcharts.theme.light": "/extensions/QCombo/library/chalk",
+    //"amcharts.theme.patterns": "/extensions/QCombo/library/patterns"
   },
   shim: {
     "amcharts.serial": {
@@ -55,6 +55,7 @@ define([
           "id": "v1",
           "position": "left",
           "autoGridCount": false,
+          "isHidden": false,
           "stackType": layout.amChart.valueAxis.leftStackType,
           "fontSize": layout.amChart.valueAxis.fontSize,
           "title": layout.amChart.valueAxis.leftTitle
@@ -66,6 +67,7 @@ define([
           "id": "v2",
           "position": "right",
           "autoGridCount": false,
+          "isHidden": true,
           "stackType": layout.amChart.valueAxis.rightStackType,
           "fontSize": layout.amChart.valueAxis.fontSize,
           "title": layout.amChart.valueAxis.rightTitle,
@@ -123,6 +125,7 @@ define([
             "parseDates": false,
             "dashLength": 1,
             "minorGridEnabled": true,
+            "autoWrap": layout.amChart.categoryAxis.autoWrap,
             "labelRotation": layout.amChart.categoryAxis.labelRotation,
             "fontSize": layout.amChart.categoryAxis.fontSize,
             "title": layout.amChart.categoryAxis.title
